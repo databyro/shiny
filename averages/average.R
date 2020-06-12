@@ -20,7 +20,7 @@ sinColor = '#003680'
 liikColor = '#ae2375'
 
 #Reading the poll data file and assigning objects
-X2019_23 <- read_excel("C:/Users/Julius/Setit/Databyro/excelit ja ärrät/excelit/2019-23.xlsx")
+X2019_23 <- read_excel("/2019-23.xlsx")
 data = X2019_23
 date = X2019_23$date
 kok = X2019_23$Kok
