@@ -1,0 +1,29 @@
+* {
+  font-family: Philosopher !important;
+}
+
+body {
+	background-color:	#ecebe9;
+}
+
+h1 {
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #313a43;
+	color: white;
+}
+
+.shiny-options-group input ~ span {
+	margin: 10px;
+	padding: 5px;
+}
+
+.shiny-options-group input:checked ~ span {
+	margin: 10px;
+	padding: 5px;
+	background-color: lightgrey;
+}
+
+#electionyear ~ div .option:nth-child(even) {
+  background-color: lightgrey;
+}
