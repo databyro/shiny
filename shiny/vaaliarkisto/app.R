@@ -230,7 +230,7 @@ ui <- fluidPage(
                          selected = c("graph")
                          ),
             
-            helpText(HTML("Avoin lähdekoodi <a href='https://github.com/Julleht/projects/tree/master/vaaliarkisto' target='_blank'>GitHubissa</a>"))
+            helpText(HTML("Avoin lähdekoodi <a href='https://github.com/Julleht/databyro/tree/master/shiny/vaaliarkisto' target='_blank'>GitHubissa</a>"))
             
             ),
 
