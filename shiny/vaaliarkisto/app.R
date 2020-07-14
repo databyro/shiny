@@ -103,7 +103,7 @@ labs <- c("Sosialidemokraattinen Puolue" = "SDP",
           )
 
 # user interface
-ui <- fluidPage(
+ui <- fluidPage(theme="style.css",
 
     tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "style.css")),
     
