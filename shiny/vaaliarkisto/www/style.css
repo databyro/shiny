@@ -29,11 +29,11 @@ h1 {
 	background-color: #DCDCDC;
 }
 
-#electionyear2 ~ div .option:nth-child(even) {
+#electionyear2 ~ div .option:nth-child(odd) {
   background-color: #F5F5F5;
 }
 
-#electionyear ~ div .option:nth-child(even) {
+#electionyear ~ div .option:nth-child(odd) {
   background-color: #F5F5F5;
 }
 
